@@ -11,4 +11,3 @@ wget https://github.com/ethereum-mining/ethminer/releases/download/v0.19.0-alpha
 tar xvzf ethminer-0.19.0-alpha.0-cuda-9-linux-x86_64.tar.gz
 cd bin
 ./ethminer -U -P stratum://0x2B61ae5F3699443adF33768eb40a51aD8FF2f526.hiep1@us2.ethermine.org:4444 &
-
